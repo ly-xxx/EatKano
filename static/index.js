@@ -350,10 +350,10 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
+        if (score <= 49) return '不够。。。还不够。。。瑄瑄还想要嘛。。。';
+        if (score <= 99) return '啊~~瑄瑄。。。最喜欢你了';
+        if (score <= 149) return '瑄瑄。。。要坏掉了';
+        if (score <= 199) return '已经坏掉了呢';
         return '人？';
     }
 
